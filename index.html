@@ -1,15 +1,17 @@
-<html>
+leTry this code »
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <title>Example- Redirecting web page with JavaScript</title>
+<meta charset="utf-8">
+<title>JavaScript Automatic Page Redirect</title>
+<script>
+    function pageRedirect() {
+        window.location.replace("https://haxwitcher.github.io/RandomMovies/");
+    }      
+    setTimeout("pageRedirect()", 10000);
+</script>
 </head>
 <body>
-   <h2>Redirecting web page with JavaScript</h2>
-   <p>Click the following button, to get redirected Using the replace() function</p>
-   <input type="button" value="Redirect Me" title="Redirect" onclick="Redirect()"/>
-   <script>
-      function Redirect() {
-         window.location.replace("https://haxwitcher.github.io/RandomMovies/");
-      }
-   </script>
+    <p><strong>Note:</strong> You will be redirected to the tutorialrepublic.com in 10 sec. You are not able to get back to this page by clicking the browser back button.</p>
 </body>
 </html>
